@@ -2,6 +2,9 @@
   "name": "interviewed-angular",
   "version": "0.0.1",
   "private": true,
+  "scripts": {
+    "start": "webpack && node app.js"
+  },
   "dependencies": {
     "axios": "^0.16.2",
     "body-parser": "1.15.0",

@@ -208,7 +208,7 @@ export default class InvoiceFrom extends React.Component{
             return prevValue + (item.quantity*parseFloat(products.find(product => product.id == item.product_id).price))
         }, 0)
 
-        const total = totalProductPrice - (totalProductPrice * parseFloat(discount)/100)
+        const total = (totalProductPrice - (totalProductPrice * parseFloat(discount)/100)).toFixed(2);
         this.setState({
             total
         });

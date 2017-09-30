@@ -12,6 +12,5 @@ ReactDOM.render(
             <IndexRoute component={Invoices}></IndexRoute>
             <Route path="/invoices/:invoiceId" component={InvoiceForm}></Route>
         </Route>
-
     </Router>,
 document.getElementById('root'));
