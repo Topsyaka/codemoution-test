@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "webpack && node app.js"
+    "web": "webpack && node app.js"
   },
   "dependencies": {
     "axios": "^0.16.2",
